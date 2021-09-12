@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Logout Testcases" duration-ms="30740" started-at="2021-09-02T22:15:26 IST" finished-at="2021-09-02T22:15:56 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30740" started-at="2021-09-02T22:15:26 IST" finished-at="2021-09-02T22:15:56 IST">
+      <class name="com.computech.testcases.LogoutTest">
+        <test-method status="PASS" signature="setUpTestSuite()[pri:0, instance:com.computech.testcases.LogoutTest@76707e36]" name="setUpTestSuite" is-config="true" duration-ms="354" started-at="2021-09-02T22:15:25 IST" finished-at="2021-09-02T22:15:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.computech.testcases.LogoutTest@76707e36]" name="setUp" is-config="true" duration-ms="10764" started-at="2021-09-02T22:15:26 IST" finished-at="2021-09-02T22:15:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToHRM()[pri:0, instance:com.computech.testcases.LogoutTest@76707e36]" name="loginToHRM" duration-ms="17084" started-at="2021-09-02T22:15:36 IST" finished-at="2021-09-02T22:15:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHRM -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.computech.testcases.LogoutTest@76707e36]" name="tearDownTest" is-config="true" duration-ms="911" started-at="2021-09-02T22:15:54 IST" finished-at="2021-09-02T22:15:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToHRM status=SUCCESS method=LogoutTest.loginToHRM()[pri:0, instance:com.computech.testcases.LogoutTest@76707e36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.computech.testcases.LogoutTest@76707e36]" name="tearDown" is-config="true" duration-ms="1925" started-at="2021-09-02T22:15:54 IST" finished-at="2021-09-02T22:15:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.computech.testcases.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Logout Testcases -->
+</testng-results>
